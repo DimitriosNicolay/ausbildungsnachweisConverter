@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
 
 # Virtual environments
@@ -11,18 +10,15 @@ env/
 ENV/
 .venv
 
-# Input/Output data
-input/*.xlsx
-input/*.xls
-output/*.md
-output/*.zip
+# Ignore contents but keep directories
+input/*
+!input/.gitkeep
 
-# IDE
+output/*
+!output/.gitkeep
+
+# IDE and OS
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
 .DS_Store
 Thumbs.db

@@ -12,7 +12,7 @@ Built this during my Fachinformatiker training to keep Markdown copies of my wee
 
 ## Installation
 
-´´´pip install pandas openpyxl´´´
+pip install pandas openpyxl
 
 ## Usage
 
@@ -20,7 +20,7 @@ Built this during my Fachinformatiker training to keep Markdown copies of my wee
 2. Place your Excel files in the `input` directory
 3. Run the converter:
 
-´´´python ausbildungsnachweis_converter.py´´´
+python ausbildungsnachweis_converter.py
 
 The script will:
 - Convert all Excel files to Markdown
@@ -32,10 +32,10 @@ The script will:
 
 Excel files should follow this naming pattern:
 
-´´´
+
 AusbildungsnachweisU27_DD.MM-DD.MM.xlsx
 AusbildungsnachweisU27_DD.MM.YY-DD.MM.YY.xlsx
-´´´
+
 Examples:
 - `AusbildungsnachweisU27_06.01.25-10.01.25.xlsx`
 - `AusbildungsnachweisU27_10.03-14.03.xlsx`
@@ -49,7 +49,7 @@ Converts to clean Markdown with:
 - Metadata (name, course, year)
 
 Example output:
-´´´
+
 KW02 - Ausbildungsnachweis (06.01.2025 - 10.01.2025)
 
 Name: Nicolay, Dimitrios
@@ -64,7 +64,7 @@ Jahr: 2025
     Team meeting and sprint planning
 
 Stunden: 9
-´´´
+
 
 ## Notes
 
